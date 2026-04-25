@@ -1,8 +1,8 @@
-# Blog API 📝
+# Blog API 
 
 A RESTful backend API built with Laravel for managing blog posts. This project allows users to create, read, update, and delete blog content, and is tested using Postman to simulate real-world API interactions.
 
-## 🚀 Features
+##  Features
 
 * Create blog posts
 * Retrieve all posts or a single post
@@ -12,14 +12,14 @@ A RESTful backend API built with Laravel for managing blog posts. This project a
 * Tested using Postman
 
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Backend:** Laravel (PHP)
 * **Database:** MySQL
 * **API Testing:** Postman
 
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone the repository:
 
@@ -57,39 +57,39 @@ php artisan migrate
 php artisan serve
 ```
 
-## 🔌 API Endpoints
+##  API Endpoints
 
-### 📄 Get all posts
+###  Get all posts
 
 ```
 GET /api/posts
 ```
 
-### 📄 Get a single post
+### Get a single post
 
 ```
 GET /api/posts/{id}
 ```
 
-### ➕ Create a post
+### Create a post
 
 ```
 POST /api/posts
 ```
 
-### ✏️ Update a post
+### Update a post
 
 ```
 PUT /api/posts/{id}
 ```
 
-### ❌ Delete a post
+### Delete a post
 
 ```
 DELETE /api/posts/{id}
 ```
 
-## 🔧 Example Request Body (POST/PUT)
+## Example Request Body (POST/PUT)
 
 ```json id="px3w9v"
 {
@@ -98,11 +98,9 @@ DELETE /api/posts/{id}
 }
 ```
 
-## 🔍 Testing with Postman
+##  Testing with Postman
 
 This API was tested using Postman:
 * Send requests to the endpoints above
 * Use JSON body for POST and PUT requests
 * Verify responses and status codes
-
-✨ *This project demonstrates backend API development using Laravel and testing with Postman.*
